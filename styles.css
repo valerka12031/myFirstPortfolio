@@ -1,0 +1,207 @@
+body{
+    margin: 0px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    color: 6c7279;
+    background-color: #d122d4;
+    
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+p{
+    margin: 0 0 0 0;
+}
+/*Header
+==============*/
+.header{
+    color: white;
+    width: 100%;
+    position: absolute;
+    height: 70px;
+}
+/*Header_container
+==============*/
+.header_container{
+    width: 100%;
+    max-width: 1110px;
+    margin: auto;
+    background-color: #d5a5d6;
+    border-radius: 10px;
+}
+
+
+.header_inner{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Navigation
+==============*/
+.nav{
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+.nav_link{
+    
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    opacity: 0.75;
+    transition: opacity 0.1s linear;
+    margin-right: 70px;
+
+}
+.nav_link:hover{
+    opacity: 1;
+}
+.nav_link:last-child{
+    margin-right: 0px;
+}
+.contacts_images{
+    opacity: 0.75;
+    width: 17px;
+    border: none;
+}
+.contacts_images:hover{
+    opacity: 1;
+}
+
+/*Intro
+================*/
+.intro{
+    padding-top: 70px;
+    
+    
+}
+
+/*Intro_container
+=================*/
+.intro_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1110px;
+    margin: auto;
+    align-items: center;
+    height: 550px;
+    
+}
+.intro_text_setting{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: 100%;
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+}
+.intro_title{
+    
+    font-size: 45px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    
+}
+.intro_subtext{
+    opacity: 0.85;
+    font-size: 24px;
+    font-weight: 400px;
+    padding-bottom: 20px;
+    
+}
+
+.intro_button_cont{
+    display: flex;
+    width: auto;
+    height: 100px;
+    background-color: #d5a5d6;
+    border-radius: 10px;
+    border: 3px solid white;
+    opacity: 0.75;
+    transition: opacity 0.1s linear;
+}
+.intro_button{
+    height: 100px;
+    width: 540px;
+    padding: 25px;
+    text-align: center;
+    
+    font-size: 30px;    
+    text-decoration: none;
+    color: white;
+    
+}
+.intro_button_cont:hover{
+    opacity: 1;
+    
+}
+.intro_image_setting{
+    width: 100%;
+    max-width: 350px;
+    max-height: 350px;
+}
+.intro_image{
+    border-radius: 50%;
+    
+    height: 350px;
+    
+}
+/*Hobby
+=================*/
+.hobby{
+    background-color:rgb(247, 167, 237);
+    
+}
+/*hobby_container
+=================*/
+.hobby_container{
+    width: 100%;
+    max-width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hobby_item{
+    margin: 30px 30px;
+    width: 33.33333%;
+    font-family: 'IBM Plex Mono', monospace;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.hobby_img{
+    margin: 0 auto;
+    width: 100px;
+    margin-bottom: 15px;
+}
+.hobby_title{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.hobby_description{
+    text-align: justify;
+    font-size: 18px;
+    word-break: keep-all;
+}
